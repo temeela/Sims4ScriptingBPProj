@@ -52,6 +52,10 @@ build_subpath = "build"
 # To hold asset files like xml tuning files and packages
 assets_subpath = "assets"
 
+# Modules to compile, if None the whole project folder will be compiled
+# Ex: included_modules = ('my_module_1', 'my_module_2')
+included_modules = None
+
 # Subpath inside the projects folder to place decompiled python files
 projects_python_subpath = "__util" + os.sep + "Python"
 projects_tuning_subpath = "__util" + os.sep + "Tuning"
